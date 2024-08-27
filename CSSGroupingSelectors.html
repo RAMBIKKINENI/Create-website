@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds and Grouping Selectors Example</title>
+    <style>
+        /* Grouping Selectors */
+        h1, h2, p {
+            text-align: center;
+            color: lightgreen;
+        }
+
+        /* Backgrounds */
+        body {
+            background-color:lightskyblue;
+        }
+
+        .background-example {
+            background-image: url('./badminton.png');
+            background-color: #ff6600; /* Fallback color if image is not loaded */
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            text-decoration: aquamarine;
+            
+            font-size: 24px;
+        }
+        .selectors{
+            background-image: none;
+            background-position: fixed;
+            background-color:lightskyblue;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Backgrounds Example Page</h1>
+    <h2>Using CSS Background Properties</h2>
+    <p>This page demonstrates the use of various CSS background properties along with grouping selectors.</p>
+
+    <div class="background-example">
+        This div has a background image and other properties applied.
+        <br>
+        <br>
+        <p>Nandamuri Taraka Rama Rao Jr (born 20 May 1983), popularly known by the initialism Jr NTR, is an Indian actor who primarily works in Telugu cinema.[1] He is one of the highest-paid actors in Telugu cinema and has been featured in Forbes India's Celebrity 100 list since 2012.[2][3] Referred to in the media as the "Man of Masses", he has appeared in over 30 films.[4] He is a recipient of several accolades including, three Filmfare Awards, two Nandi Awards, two Siima Awards, four CineMAA Awards and one IIFA Award.</p><br>
+        <br>
+        <p>Grandson of Telugu matinee idol, N. T. Rama Rao, who was also the former Chief Minister of the Indian state of Andhra Pradesh,[5] Rao appeared as a child actor in works such as Brahmarshi Viswamitra (1991), and Ramayanam (1997), the latter winning the National Film Award for Best Children's Film for that year. He made his debut as a lead actor with Ninnu Choodalani (2001). He achieved his breakthrough with the coming-of-age film Student No: 1 (2001) and the action drama Aadi (2002). He went on to star in other commercially successful films such as Simhadri (2003), Yamadonga (2007), Adhurs (2010), Brindavanam (2010) and Baadshah (2013). Following a brief setback, he made a career comeback with the 2015 action drama Temper. Further commercial successes came with Nannaku Prematho (2016), Janatha Garage (2016), Jai Lava Kusa (2017), Aravinda Sametha Veera Raghava (2018), and RRR (2022), some of which rank among the highest-grossing Telugu films and highest-grossing Indian films.</p>
+       <br>
+       <br>
+        <p>In 2017, he hosted the first season of the Telugu language reality TV show Bigg Boss on Star Maa. He also hosted the fifth season of Evaru Meelo Koteeswarulu in 2021 on Gemini TV</p>   
+    </div>
+    <div class="selectors">
+        this page is telling about the grouping selectors
+        <br>
+        <br>
+        <P>In 2017, he hosted the first season of the Telugu language reality TV show Bigg Boss on Star Maa. He also hosted the fifth season of Evaru Meelo Koteeswarulu in 2021 on Gemini TV.</P>
+        <br>
+        <br>
+        <p>In 2017, he hosted the first season of the Telugu language reality TV show Bigg Boss on Star Maa. He also hosted the fifth season of Evaru Meelo Koteeswarulu in 2021 on Gemini TV.</p>
+        <br>
+        <br>
+        <p>In 2017, he hosted the first season of the Telugu language reality TV show Bigg Boss on Star Maa. He also hosted the fifth season of Evaru Meelo Koteeswarulu in 2021 on Gemini TV.</p>
+        <br>
+        <p>In 2017, he hosted the first season of the Telugu language reality TV show Bigg Boss on Star Maa. He also hosted the fifth season of Evaru Meelo Koteeswarulu in 2021 on Gemini TV.</p>
+    </div>
+</body>
+</html>

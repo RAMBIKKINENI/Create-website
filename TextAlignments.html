@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Alignment Example</title>
+    <style>
+        .text-align-left {
+            text-align: left;
+            margin-bottom: 10px;
+            font-size: 50px;
+        }
+        .text-align-center {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 50px;
+        }
+        .text-align-right {
+            text-align: right;
+            margin-bottom: 10px;
+            font-size: 50px;
+        }
+        .direction-rtl {
+            direction: rtl;
+            margin-bottom: 10px;
+            font-size: 50px;
+        }
+        .direction-ltr {
+            direction: ltr;
+            margin-bottom: 10px;
+            font-size: 50px;
+        }
+        .text-align-last {
+            text-align: justify;
+            text-align-last: right;
+            margin-bottom: 10px;
+            font-size: 50px;
+        }
+        .unicode-bidi {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+            margin-bottom: 10px;
+            font-size: 50px;
+        }
+        .vertical-align {
+            display: inline-block;
+            vertical-align: middle;
+            height: 50px;
+            line-height: 50px;
+            margin-bottom: 10px;
+            font-size: 50px;
+        }
+        .vertical-align-container {
+            height: 50px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <!--strong tag used for to highlight the which tag and strong tag sentence are in thick black font-->
+    <p class="text-align-left">This paragraph is aligned to the left using <strong>text-align: left;</strong></p>
+    <p class="text-align-center">This paragraph is centered using <strong>text-align: center;</strong></p>
+    <p class="text-align-right">This paragraph is aligned to the right using <strong>text-align: right;</strong></p>
+
+    <p class="direction-rtl">This paragraph has a right-to-left text direction using <strong>direction: rtl;</strong></p>
+    <p class="direction-ltr">This paragraph has a left-to-right text direction using <strong>direction: ltr;</strong></p>
+
+    <p class="text-align-last">This paragraph is justified with the last line aligned to the right using <strong>text-align: justify; text-align-last: right;</strong></p>
+
+    <p class="unicode-bidi">This paragraph overrides the text direction using <strong>unicode-bidi: bidi-override;</strong></p>
+
+    <div class="vertical-align-container">
+        <span>This text is at the top.</span>
+        <span class="vertical-align">This text is vertically centered using <strong>vertical-align: middle;</strong></span>
+        <span>This text is at the bottom.</span>
+    </div>
+</body>
+</html>

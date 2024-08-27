@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color:skyblue;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 1px;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            flex: 2;
+            background-color:lightpink;
+            padding: 20px;
+            border-right: 2px solid #eaeaea;
+            box-sizing: border-box;
+        }
+        aside {
+            flex: 1;
+            background-color:lightgreen;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        article {
+            margin-bottom: 30px;
+        }
+        article h2 {
+            background-color: #4CAF50;
+            color: lightcoral;
+            padding: 10px;
+            margin: 0 -20px 20px -20px;
+            border-radius: 5px 5px 0 0;
+        }
+        article p {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 0 0 5px 5px;
+            margin: 0;
+        }
+        .charminar-img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .nature-container {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .nature-img {
+            width: 50%;
+            height:50%;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .movie-ad {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .movie-ad h4 {
+            margin: 0 0 10px;
+        }
+        .movie-ad p {
+            margin: 10px 0;
+        }
+        .movie-ad img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .poster {
+            background-color:lightpink;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .poster h4 {
+            margin: 0 0 10px;
+        }
+        .poster img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color:lightseagreen;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My DataBase</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">telangana</a></li>
+            <li><a href="#">Andhra pradesh</a></li>
+            <li><a href="#">kerala</a></li>
+            <li><a href="#">chennai</a></li>
+            <li><a href="#">punjab</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <article>
+                <h2>Welcome to My world</h2>
+                <p>Welcome to our website, where we bring you the latest updates on cultural landmarks, environmental conservation, and entertainment. Our goal is to provide you with comprehensive information that is both educational and engaging. Whether you're interested in historical sites, nature preservation, or the latest movie releases, you'll find something that captures your interest here.</p>
+                <p>In this article, we'll explore the Charminar, a symbol of Hyderabad's rich history, and provide insights into why protecting nature is crucial for our future. We'll also highlight a must-see movie currently making waves in theaters. Read on to discover more!</p>
+            </article>
+            <article>
+                <h2>About Charminar</h2>
+                <img src="./charminar.jfif" alt="Charminar" class="charminar-img">
+                <p>The Charminar, located in the heart of Hyderabad, India, is one of the most iconic structures in the country. Built in 1591 by Muhammad Quli Qutb Shah, the Charminar was constructed to commemorate the eradication of a plague that was sweeping through the city. The monument’s name translates to "Four Minarets," which is a fitting description of its four grand towers that dominate the skyline.</p>
+                <p>Each of the Charminar’s four arches faces a different direction, serving as a gateway to the bustling markets that surround the monument. These markets, known for their vibrant atmosphere, are a treasure trove of goods ranging from pearls and jewelry to traditional Hyderabadi cuisine. The Charminar itself is a blend of Indo-Islamic architecture, with its intricate carvings, massive arches, and domes that are a testament to the craftsmanship of the time.</p>
+                <p>Over the centuries, the Charminar has witnessed the ebb and flow of Hyderabad's history, standing resilient as a symbol of the city's cultural and architectural heritage. It remains a popular destination for both tourists and locals, offering a glimpse into the rich history of the region.</p>
+                
+            </article>
+            <article>
+                <h2>Protect Nature</h2>
+                <div class="nature-container">
+                    <img src="./save forest.jfif" alt="Nature" class="nature-img">
+                    <p>As the global population continues to grow, the strain on our natural resources intensifies. Deforestation, pollution, and climate change are just some of the challenges that threaten the delicate balance of our ecosystems. Protecting nature is no longer an option—it is a necessity. The health of our planet directly impacts our health, and the preservation of natural habitats is essential for the survival of countless species, including our own.</p>
+                </div>
+                <p>One of the most effective ways to protect nature is through sustainable practices. This includes reducing waste, recycling, and opting for renewable energy sources such as solar and wind power. By making these small changes in our daily lives, we can collectively make a significant impact. Additionally, supporting conservation efforts and protecting endangered species are crucial steps in ensuring that we preserve the biodiversity that makes our planet unique.</p>
+                <p>Education also plays a key role in nature conservation. By raising awareness about the importance of protecting the environment, we can inspire others to take action. From planting trees to reducing carbon footprints, every action counts. The time to act is now, and together, we can create a future where nature thrives.</p>
+                <p>This is not the full information, go to <a href="#">this page</a> for more details.</p>
+            </article>
+        </section>
+        
+        <aside>
+            <div class="movie-ad">
+                <h3>MAN OF MASSESS "J.R.N.T.R"</h3>
+                <img src="./Jr-Ntr-HD-Cute-Pics.jpg" alt="The Man of Massess">
+                <h4>Jr NTR Makes A Generous Donation Of Rs 12.5 Lakhs To A Temple In Andhra Pradesh</h4>
+                <p>Jr. NTR enjoys a massive fan following. Fondly known as Man of Masses by his millions of fans, he is currently busy working on his much-awaited upcoming magnum opus, ‘Devara: Part 1’. Despite his larger-than-life persona, NTR Jr. continues to be extremely humble and genuine, qualities his fans truly admire. Recently, the actor extended his support for a noble cause. Man of Masses NTR Jr. generously donated a hefty sum of Rs. 12.5 lakhs to the famous ‘Sri Bhadrakali Sametha Veerabhadra Swamy Temple’ in Cheyyeru, Andhra Pradesh.</p>
+                <p>The same was revealed on social media by a fan page dedicated to NTR Jr. The post read, “Tarak donated 12,50,000 to Sri Badrakali Sametha Veera Badra Swami Vari Alayam ”</p>
+                <p>Additionally, NTR Jr has earlier made donations to various other important causes as well, including contributing Rs 25 lakhs to the Andhra Pradesh Chief Minister’s Relief Fund to aid flood victims and donating another Rs 25 lakhs to The Corona Crisis Charity to support daily-wage workers in the industry, among many others. NTR Jr’s contributions reflect his strong commitment to doing his bit for society and serve as a positive influence for others to follow.<a href="#">https://www.news18.com/movies/devara-part-1-jr-ntr-makes-a-generous-donation-of-rs-12-5-lakhs-to-a-temple-in-andhra-pradesh-8891692.html</a> for more details.</p>
+            </div>
+        
+        
+        <div class="poster">
+            <h3>GOD OF MASSESS "BALAYYA BABU</h3>
+            <img src="./nbk-109-poster.jpg" alt="NBK=109">
+        </div>
+        </aside>
+    
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

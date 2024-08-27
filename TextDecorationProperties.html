@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Text Decoration Properties</title>
+    <style>
+        /* 1. text-decoration-color */
+        .decoration-color {
+            text-decoration: underline;        /* Adds an underline */
+            text-decoration-color: red;        /* Sets the underline color to red */
+        }
+
+        /* 2. text-decoration-line */
+        .decoration-line {
+            text-decoration-line: overline;     /* Adds an overline */
+            text-decoration-color: green;       /* Sets the overline color to green */
+        }
+
+        /* 3. text-decoration-style */
+        .decoration-style {
+            text-decoration: underline;        /* Adds an underline */
+            text-decoration-style: dashed;      /* Sets the underline style to dashed */
+            text-decoration-color: blue;        /* Sets the underline color to blue */
+        }
+
+        /* 4. text-decoration-thickness */
+        .decoration-thickness {
+            text-decoration: line-through;     /* Adds a line-through */
+            text-decoration-thickness: 3px;    /* Sets the thickness of the line-through */
+            text-decoration-color: purple;      /* Sets the line-through color to purple */
+        }
+
+        /* Combined example */
+        .combined-decoration {
+            text-decoration-line: underline overline; /* Adds both underline and overline */
+            text-decoration-style: wavy;              /* Sets the decoration style to wavy */
+            text-decoration-color: orange;            /* Sets the decoration color to orange */
+            text-decoration-thickness: 2px;           /* Sets the thickness of the decorations */
+        }
+
+        /* Additional styling for better readability */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color:lightblue;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .combined-decoration {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Understanding CSS Text Decoration Properties</h1>
+
+    <h2>1. text-decoration-color</h2>
+    <p class="decoration-color">
+        This text is <strong>underlined in red</strong>. (text-decoration-color)
+    </p>
+
+    <h2>2. text-decoration-line</h2>
+    <p class="decoration-line">
+        This text has an <strong>overline in green</strong>. (text-decoration-line)
+    </p>
+
+    <h2>3. text-decoration-style</h2>
+    <p class="decoration-style">
+        This text is <strong>underlined with a dashed blue line</strong>. (text-decoration-style)
+    </p>
+
+    <h2>4. text-decoration-thickness</h2>
+    <p class="decoration-thickness">
+        This text has a <strong>purple line-through with 3px thickness</strong>. (text-decoration-thickness)
+    </p>
+
+    <h2>Combined Example</h2>
+    <p class="combined-decoration">
+        This text has both <strong>underline and overline</strong>, styled with a wavy orange line of 2px thickness. (Combined properties)
+    </p>
+</body>
+</html>
