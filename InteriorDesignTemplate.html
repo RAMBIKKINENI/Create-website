@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Interior Design Template</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .header-part{
+            height: 40vh;
+            width: 30vw;
+            min-width: 30vw;
+            display: flex;
+            align-items:center;
+            justify-content: space-around;
+            margin: auto;
+            font-size:xx-large;
+        }
+        a{
+            position: relative;
+            text-decoration: none;
+            color:rgba(0, 0, 0, 0.788);
+            font-size: 20px;
+            font-weight:500;
+            font-display: lightblue;
+
+        }
+         a:after{
+            position:absolute;
+            height: 2px;
+            width: 4px;
+            background-color:rgba(0, 0, 0, 0.596);
+            left: 3px;
+            transition: 0.3s;
+         }
+         a:hover{
+            color: aqua;
+         }
+         a:hover:after{
+            width: 100%;
+         }
+         .searchbar-container{
+          align-items: center;
+          display: flex;
+          border-radius: 20px; 
+          margin:6vh,7vw; 
+         }
+         main{
+            margin: 1vh,5vw;
+            display: flex;
+            border: 2px;
+            margin: 4px;
+         }
+         .left{
+            width: 50%;
+         }
+         .right{
+            width: 50%;
+         }
+         .head{
+            flex-direction: column;
+            display: flex;
+            justify-content: space-around;
+         }
+         .h1{
+            font-size:larger;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin:spx ;
+            width: 1vw;
+            color: aqua;
+         }
+         .h2{
+            font-size: medium;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin:2px,4px,5px,3px;
+            line-height: 20px;
+            color:rgba(0, 0, 0, 0.582);
+         }
+         .paragraph{
+            flex-direction: column;
+            display: flex;
+      
+         }
+         p{
+            font-size: small;
+         }
+         .learnmore{
+          border: 5px;
+          border-radius: 5px;
+          padding: 5px;
+          background-color: aqua;
+         }
+         .imageAdd{
+            height: 10vh;
+         }
+
+        
+    </style>
+</head>
+<body>
+  <nav>
+        <div  class="header-part">
+               <a href="#">Home</a>
+               <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="#">Contact us</a>
+        </div>
+        <div class="searchbar-container">
+            <input type="text" placeholder="" class="search-input">
+            </div>
+        </div>
+  </nav>
+  
+  <main>
+    <div class="left"></div>
+       <div class="imageAdd">
+            <img src="./excellemtimage.jpg" alt="interior image">
+        </div>
+    <div class="right"></div>
+     <div class="head">
+        <h1>we design your Home</h1><br>
+         <h2>interior design 2024</h2><br>
+         <br>
+         <br>
+     </div class="paragraph">
+         <p>Let your designer guide you to a design that meets your functional needs and suits your unique style. See it come to life with a 3D rendering of the design in your actual</p>
+         </div>
+         <br>
+         <br>
+              <div class="learnmore">
+               <p>LearnMore.</p>
+              </div>
+              
+  </main>
+    
+</body>
+</html>

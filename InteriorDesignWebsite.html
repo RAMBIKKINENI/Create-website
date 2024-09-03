@@ -1,0 +1,184 @@
+<!--Havenily-->
+<!--how it works-->
+<!--portfolio,giftcards,shop,blog-->
+<!--login,getstarted-->
+<!--above are the navigaton bar information-->
+<!--one box type is there and inside one paragraph and there is a button,the button name is find your style-->
+<!--in the center the head tect is how havenily works-->
+<!--in left side 01 number and space and h1 and paragraph in side and beside image-->
+<!--in box the h1 tag should there and it starts from left to right-->
+<!--in box inside two sub boxes are there in the boxes h1 and paragraph tag and "starting at" in price and the price below some information  and last one button is there in botton inside "get started online" and another box "get started person"-->
+<!--and beside image-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design Website</title>
+    <style>
+        nav{
+            position: fixed;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: bisque;
+           
+        }
+        a{
+            display: flex;
+            font-size: large;
+            text-decoration: none;
+            font-style: calc();
+            color: black;
+        }
+        a:hover{
+            background-color: aqua;
+        }
+        a:after{
+            font-weight: 100;
+            background-color: aqua;
+        }
+        .loginbutton{
+            background-color: lightpink;
+            border-radius: 16px;
+            padding: 10px 20px ;
+            margin: none;
+        }
+        .getstartedbutton{
+            background-color: orange;
+            border-radius: 16px;
+            padding:10px 20px ;
+           
+        }
+        .header {
+          margin-bottom: 10rem;
+          margin-top: 3rem;
+          background-image: url("./backroundimageinterior.webp");
+          background-position: center center;
+          background-size: cover;
+          background-repeat: no-repeat;
+         }
+           /*this style applicable to the small box*/
+          .header__container { 
+          min-height: 800px;
+          position: relative;
+         }
+           /*this style applicable to the small box*/
+          .header__content {
+          position: absolute;
+          bottom: 10rem;
+          padding: 2rem;
+          background-color:lightgray;
+          border: 6px solid white;
+          }
+
+           .header__content h4 {
+           position: relative;
+           margin-top: 0.2rem;
+           margin-bottom: 2rem;
+           font-size: 1rem;
+           font-weight: 500;
+           letter-spacing: 2px;
+           color:none;
+          }
+         .header__content h1 {
+          width: 100%;
+          max-width: 600px;
+          font-size: 4rem;
+          font-weight: 400;
+          font-family:sans-serif;
+          color: dark rgba(0, 0, 0, 0.274);
+          }
+          .findbutton{
+            text-align:center;
+            border-radius: 6rem;
+            padding: 5px 2px;
+            background-color: lightcoral;
+            min-width: none;
+            
+          }
+          .headTitle{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+          }
+          .about_container{
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+
+          }
+          .about_content1{
+            width: fit-content;
+            align-items: center;
+            margin: 20px;
+          }
+  </style>
+</head>
+<body>
+    <nav>
+        <div class="Header part">
+            <h1>Havenily</h1>
+        </div>
+        <a href="#">how it works</a>
+        <a href="#">portfolio</a>
+        <a href="#">giftcards</a>
+        <a href="#">shop</a>
+        <a href="#">blog</a>
+
+        <div class="loginbutton">
+            login
+        </div>
+        <div class="getstartedbutton">
+            getstarted
+        </div>
+    </nav>
+    <main>
+        <div class="header">
+        <div class="header__container"></div>
+            <div class="header__content">
+            <h4>#1 INTERIOR DESIGN SERVICE</h4>
+            <h1>Stunning interior design services,now with in reach</h1>
+            <div class="findbutton">
+                find your style
+            </div>
+
+        </div>
+    </main>
+    <section class="headTitle">
+        <h1>How Havenly Works</h1>
+    </section>
+    <section class="about_container">
+        <div class="about_content">
+          <h1>01</h1>
+        </div>
+        <div class="about__content1">
+            <h1>Match with one of our talented designers and get inspired</h1>
+            <h4>with 10 years of experince in 29 states 1000+ designs,we will help you choose your style,get inspired and realize your design dreams for your space</h4>
+        </div>
+        <div class="imageleftside">
+            <img src="./updated image.webp" alt="ntr">
+        </div>
+    </section>
+    <section1 class="about__container1">
+        <div class="about__content2">
+            <h1>02</h1>
+        </div>
+        <div class="about__contentB">
+            <h1>Collaborate 1:1 with your designer to create your perfect space.</h1>
+            <h4>Let your designer guide you to a design that meets your functional needs and suits your unique style. See it come to life with a 3D rendering of the design in your actual space.</h4>
+
+        </div>
+    </section1>
+    <section2 class="about__container2">
+        <div class="about__content3">
+            <h1>03</h1>
+        </div>
+        <div class="about_contentC">
+            <h1>Bring your design home with ease.</h1>
+            <h4>Our designers source from 100+ home brands so no two spaces are ever alike. Leverage Havenly’s proprietary platform with a simple consolidated checkout and never overpay with our price guarantee. </h4>
+        </div>
+    </section2>
+
+</body>
+</html>
